@@ -9,7 +9,7 @@
 
 🍥 Next-Generation Large Model Gateway and AI Asset Management System
 
-<a href="https://trendshift.io/repositories/8227" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8227" alt="Calcium-Ion%2Fnew-api | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Calcium-Ion/new-api/main/LICENSE">
@@ -40,34 +40,11 @@
 > - Users must comply with OpenAI's [Terms of Use](https://openai.com/policies/terms-of-use) and **applicable laws and regulations**, and must not use it for illegal purposes.
 > - According to the [《Interim Measures for the Management of Generative Artificial Intelligence Services》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm), please do not provide any unregistered generative AI services to the public in China.
 
-<h2>🤝 Trusted Partners</h2>
-<p id="premium-sponsors">&nbsp;</p>
-<p align="center"><strong>No particular order</strong></p>
-<p align="center">
-  <a href="https://www.cherry-ai.com/" target=_blank><img
-    src="./docs/images/cherry-studio.png" alt="Cherry Studio" height="120"
-  /></a>
-  <a href="https://bda.pku.edu.cn/" target=_blank><img
-    src="./docs/images/pku.png" alt="Peking University" height="120"
-  /></a>
-  <a href="https://www.compshare.cn/?ytag=GPU_yy_gh_newapi" target=_blank><img
-    src="./docs/images/ucloud.png" alt="UCloud" height="120"
-  /></a>
-  <a href="https://www.aliyun.com/" target=_blank><img
-    src="./docs/images/aliyun.png" alt="Alibaba Cloud" height="120"
-  /></a>
-  <a href="https://io.net/" target=_blank><img
-    src="./docs/images/io-net.png" alt="IO.NET" height="120"
-  /></a>
-</p>
-<p>&nbsp;</p>
+
 
 ## 📚 Documentation
 
 For detailed documentation, please visit our official Wiki: [https://docs.newapi.pro/](https://docs.newapi.pro/)
-
-You can also access the AI-generated DeepWiki:
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/QuantumNous/new-api)
 
 ## ✨ Key Features
 
@@ -211,6 +188,4 @@ If you have any questions, please refer to [Help and Support](https://docs.newap
 - [Issue Feedback](https://docs.newapi.pro/support/feedback-issues)
 - [FAQ](https://docs.newapi.pro/support/faq)
 
-## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Calcium-Ion/new-api&type=Date)](https://star-history.com/#Calcium-Ion/new-api&Date)
