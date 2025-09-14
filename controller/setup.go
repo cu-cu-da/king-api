@@ -2,10 +2,10 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/model"
-	"one-api/setting/operation_setting"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/model"
+	"king-api/setting/operation_setting"
 	"time"
 )
 

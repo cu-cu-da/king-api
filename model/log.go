@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 	"fmt"
-	"one-api/common"
+	"king-api/common"
 	"os"
 	"strings"
 	"time"

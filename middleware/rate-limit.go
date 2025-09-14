@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"one-api/common"
+	"king-api/common"
 	"time"
 )
 

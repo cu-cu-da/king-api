@@ -1,8 +1,8 @@
 package mistral
 
 import (
-	"one-api/common"
-	"one-api/dto"
+	"king-api/common"
+	"king-api/dto"
 	"regexp"
 )
 

@@ -3,7 +3,7 @@ package ratio_setting
 import (
 	"encoding/json"
 	"errors"
-	"one-api/common"
+	"king-api/common"
 	"sync"
 )
 

@@ -2,9 +2,9 @@ package model
 
 import (
 	"fmt"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/dto"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/dto"
 	"time"
 
 	"github.com/gin-gonic/gin"

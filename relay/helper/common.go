@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 	"net/http"
-	"one-api/common"
-	"one-api/dto"
-	"one-api/types"
+	"king-api/common"
+	"king-api/dto"
+	"king-api/types"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"

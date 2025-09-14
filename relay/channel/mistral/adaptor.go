@@ -4,11 +4,11 @@ import (
 	"errors"
 	"io"
 	"net/http"
-	"one-api/dto"
-	"one-api/relay/channel"
-	"one-api/relay/channel/openai"
-	relaycommon "one-api/relay/common"
-	"one-api/types"
+	"king-api/dto"
+	"king-api/relay/channel"
+	"king-api/relay/channel/openai"
+	relaycommon "king-api/relay/common"
+	"king-api/types"
 
 	"github.com/gin-gonic/gin"
 )

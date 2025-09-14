@@ -2,8 +2,8 @@ package model
 
 import (
 	"fmt"
-	"one-api/common"
-	"one-api/constant"
+	"king-api/common"
+	"king-api/constant"
 	"time"
 )
 

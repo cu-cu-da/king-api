@@ -1,7 +1,7 @@
 package baidu
 
 import (
-	"one-api/dto"
+	"king-api/dto"
 	"time"
 )
 

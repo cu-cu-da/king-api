@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"one-api/common"
-	"one-api/dto"
-	relaycommon "one-api/relay/common"
-	"one-api/types"
+	"king-api/common"
+	"king-api/dto"
+	relaycommon "king-api/relay/common"
+	"king-api/types"
 
 	"github.com/gin-gonic/gin"
 )

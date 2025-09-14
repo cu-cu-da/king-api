@@ -2,8 +2,8 @@ package dto
 
 import (
 	"encoding/json"
-	"one-api/common"
-	"one-api/types"
+	"king-api/common"
+	"king-api/types"
 )
 
 type ClaudeMetadata struct {

@@ -1,7 +1,7 @@
 package service
 
 import (
-	"one-api/setting"
+	"king-api/setting"
 )
 
 func GetCallbackAddress() string {

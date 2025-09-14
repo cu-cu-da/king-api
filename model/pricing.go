@@ -2,10 +2,10 @@ package model
 
 import (
 	"fmt"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/setting/ratio_setting"
-	"one-api/types"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/setting/ratio_setting"
+	"king-api/types"
 	"sync"
 	"time"
 )

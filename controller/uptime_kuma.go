@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"net/http"
-	"one-api/setting/console_setting"
+	"king-api/setting/console_setting"
 	"strconv"
 	"strings"
 	"time"

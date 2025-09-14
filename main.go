@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/controller"
-	"one-api/middleware"
-	"one-api/model"
-	"one-api/router"
-	"one-api/service"
-	"one-api/setting/ratio_setting"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/controller"
+	"king-api/middleware"
+	"king-api/model"
+	"king-api/router"
+	"king-api/service"
+	"king-api/setting/ratio_setting"
 	"os"
 	"strconv"
 
@@ -39,7 +39,7 @@ func main() {
 		return
 	}
 
-	common.SysLog("New API " + common.Version + " started")
+	common.SysLog("King API " + common.Version + " started")
 	if os.Getenv("GIN_MODE") != "debug" {
 		gin.SetMode(gin.ReleaseMode)
 	}
@@ -128,8 +128,8 @@ func main() {
 		common.SysError(fmt.Sprintf("panic detected: %v", err))
 		c.JSON(http.StatusInternalServerError, gin.H{
 			"error": gin.H{
-				"message": fmt.Sprintf("Panic detected, error: %v. Please submit a issue here: https://github.com/Calcium-Ion/new-api", err),
-				"type":    "new_api_panic",
+				"message": fmt.Sprintf("Panic detected, error: %v. Please submit a issue here: https://github.com/Calcium-Ion/king-api", err),
+				"type":    "king_api_panic",
 			},
 		})
 	}))

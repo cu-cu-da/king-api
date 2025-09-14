@@ -9,20 +9,20 @@ import (
 	"mime/multipart"
 	"net/http"
 	"net/textproto"
-	"one-api/constant"
-	"one-api/dto"
-	"one-api/relay/channel"
-	"one-api/relay/channel/ai360"
-	"one-api/relay/channel/lingyiwanwu"
-	"one-api/relay/channel/minimax"
-	"one-api/relay/channel/moonshot"
-	"one-api/relay/channel/openrouter"
-	"one-api/relay/channel/xinference"
-	relaycommon "one-api/relay/common"
-	"one-api/relay/common_handler"
-	relayconstant "one-api/relay/constant"
-	"one-api/service"
-	"one-api/types"
+	"king-api/constant"
+	"king-api/dto"
+	"king-api/relay/channel"
+	"king-api/relay/channel/ai360"
+	"king-api/relay/channel/lingyiwanwu"
+	"king-api/relay/channel/minimax"
+	"king-api/relay/channel/moonshot"
+	"king-api/relay/channel/openrouter"
+	"king-api/relay/channel/xinference"
+	relaycommon "king-api/relay/common"
+	"king-api/relay/common_handler"
+	relayconstant "king-api/relay/constant"
+	"king-api/service"
+	"king-api/types"
 	"path/filepath"
 	"strings"
 
@@ -100,7 +100,7 @@ func (a *Adaptor) GetRequestURL(info *relaycommon.RelayInfo) (string, error) {
 		if info.ChannelCreateTime < constant.AzureNoRemoveDotTime {
 			model_ = strings.Replace(model_, ".", "", -1)
 		}
-		// https://github.com/songquanpeng/one-api/issues/67
+		// https://github.com/songquanpeng/king-api/issues/67
 		requestURL = fmt.Sprintf("/openai/deployments/%s/%s", model_, task)
 		if info.RelayMode == relayconstant.RelayModeRealtime {
 			requestURL = fmt.Sprintf("/openai/realtime?deployment=%s&api-version=%s", model_, apiVersion)

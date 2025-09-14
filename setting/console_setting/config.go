@@ -1,6 +1,6 @@
 package console_setting
 
-import "one-api/setting/config"
+import "king-api/setting/config"
 
 type ConsoleSetting struct {
     ApiInfo           string `json:"api_info"`           // 控制台 API 信息 (JSON 数组字符串)

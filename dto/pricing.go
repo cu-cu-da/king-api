@@ -1,6 +1,6 @@
 package dto
 
-import "one-api/constant"
+import "king-api/constant"
 
 type OpenAIModels struct {
 	Id                     string                  `json:"id"`

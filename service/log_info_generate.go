@@ -1,11 +1,11 @@
 package service
 
 import (
-	"one-api/common"
-	"one-api/constant"
-	"one-api/dto"
-	relaycommon "one-api/relay/common"
-	"one-api/relay/helper"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/dto"
+	relaycommon "king-api/relay/common"
+	"king-api/relay/helper"
 
 	"github.com/gin-gonic/gin"
 )

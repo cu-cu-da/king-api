@@ -2,9 +2,9 @@ package helper
 
 import (
 	"fmt"
-	"one-api/common"
-	relaycommon "one-api/relay/common"
-	"one-api/setting/ratio_setting"
+	"king-api/common"
+	relaycommon "king-api/relay/common"
+	"king-api/setting/ratio_setting"
 
 	"github.com/gin-gonic/gin"
 )

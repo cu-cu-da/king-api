@@ -2,7 +2,7 @@ package model
 
 import (
 	"errors"
-	"one-api/common"
+	"king-api/common"
 	"sync"
 	"time"
 

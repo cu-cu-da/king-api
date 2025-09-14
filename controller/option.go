@@ -3,12 +3,12 @@ package controller
 import (
 	"encoding/json"
 	"net/http"
-	"one-api/common"
-	"one-api/model"
-	"one-api/setting"
-	"one-api/setting/console_setting"
-	"one-api/setting/ratio_setting"
-	"one-api/setting/system_setting"
+	"king-api/common"
+	"king-api/model"
+	"king-api/setting"
+	"king-api/setting/console_setting"
+	"king-api/setting/ratio_setting"
+	"king-api/setting/system_setting"
 	"strings"
 
 	"github.com/gin-gonic/gin"

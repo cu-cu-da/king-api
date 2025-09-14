@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"io"
 	"net/http"
-	"one-api/common"
-	"one-api/dto"
-	"one-api/relay/helper"
+	"king-api/common"
+	"king-api/dto"
+	"king-api/relay/helper"
 	"strings"
 
-	"one-api/types"
+	"king-api/types"
 
 	"github.com/gin-gonic/gin"
 )

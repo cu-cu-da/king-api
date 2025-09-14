@@ -1,6 +1,6 @@
 package palm
 
-import "one-api/dto"
+import "king-api/dto"
 
 type PaLMChatMessage struct {
 	Author  string `json:"author"`

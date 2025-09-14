@@ -2,8 +2,8 @@ package zhipu_4v
 
 import (
 	"github.com/golang-jwt/jwt"
-	"one-api/common"
-	"one-api/dto"
+	"king-api/common"
+	"king-api/dto"
 	"strings"
 	"sync"
 	"time"

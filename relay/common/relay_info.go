@@ -1,10 +1,10 @@
 package common
 
 import (
-	"one-api/common"
-	"one-api/constant"
-	"one-api/dto"
-	relayconstant "one-api/relay/constant"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/dto"
+	relayconstant "king-api/relay/constant"
 	"strings"
 	"time"
 

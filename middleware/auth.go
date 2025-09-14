@@ -3,8 +3,8 @@ package middleware
 import (
 	"fmt"
 	"net/http"
-	"one-api/common"
-	"one-api/model"
+	"king-api/common"
+	"king-api/model"
 	"strconv"
 	"strings"
 

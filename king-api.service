@@ -1,0 +1,18 @@
+# File path: /etc/systemd/system/king-api.service
+# sudo systemctl daemon-reload
+# sudo systemctl start king-api
+# sudo systemctl enable king-api
+# sudo systemctl status king-api
+[Unit]
+Description=King API Service
+After=network.target
+
+[Service]
+User=ubuntu  # 注意修改用户名
+WorkingDirectory=/path/to/king-api  # 注意修改路径
+ExecStart=/path/to/king-api/king-api --port 3000 --log-dir /path/to/king-api/logs  # 注意修改路径和端口号
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

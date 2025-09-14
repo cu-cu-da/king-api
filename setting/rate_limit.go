@@ -3,7 +3,7 @@ package setting
 import (
 	"encoding/json"
 	"fmt"
-	"one-api/common"
+	"king-api/common"
 	"sync"
 )
 

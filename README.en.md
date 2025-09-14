@@ -3,9 +3,9 @@
 </p>
 <div align="center">
 
-![new-api](/web/public/logo.png)
+![king-api](/web/public/logo.png)
 
-# New API
+# King API
 
 🍥 Next-Generation Large Model Gateway and AI Asset Management System
 
@@ -48,7 +48,7 @@ For detailed documentation, please visit our official Wiki: [https://docs.newapi
 
 ## ✨ Key Features
 
-New API offers a wide range of features, please refer to [Features Introduction](https://docs.newapi.pro/wiki/features-introduction) for details:
+King API offers a wide range of features, please refer to [Features Introduction](https://docs.newapi.pro/wiki/features-introduction) for details:
 
 1. 🎨 Brand new UI interface
 2. 🌍 Multi-language support
@@ -119,7 +119,7 @@ For detailed configuration instructions, please refer to [Installation Guide-Env
 For detailed deployment guides, please refer to [Installation Guide-Deployment Methods](https://docs.newapi.pro/installation):
 
 > [!TIP]
-> Latest Docker image: `calciumion/new-api:latest`
+> Latest Docker image: `calciumion/king-api:latest`
 
 ### Multi-machine Deployment Considerations
 - Environment variable `SESSION_SECRET` must be set, otherwise login status will be inconsistent across multiple machines
@@ -132,14 +132,14 @@ For detailed deployment guides, please refer to [Installation Guide-Deployment M
 ### Deployment Methods
 
 #### Using BaoTa Panel Docker Feature
-Install BaoTa Panel (version **9.2.0** or above), find **New-API** in the application store and install it.
+Install BaoTa Panel (version **9.2.0** or above), find **King-API** in the application store and install it.
 [Tutorial with images](./docs/BT.md)
 
 #### Using Docker Compose (Recommended)
 ```shell
 # Download the project
-git clone https://github.com/Calcium-Ion/new-api.git
-cd new-api
+git clone https://github.com/Calcium-Ion/king-api.git
+cd king-api
 # Edit docker-compose.yml as needed
 # Start
 docker-compose up -d
@@ -148,10 +148,10 @@ docker-compose up -d
 #### Using Docker Image Directly
 ```shell
 # Using SQLite
-docker run --name new-api -d --restart always -p 3000:3000 -e TZ=Asia/Shanghai -v /home/ubuntu/data/new-api:/data calciumion/new-api:latest
+docker run --name king-api -d --restart always -p 3000:3000 -e TZ=Asia/Shanghai -v /home/ubuntu/data/king-api:/data calciumion/king-api:latest
 
 # Using MySQL
-docker run --name new-api -d --restart always -p 3000:3000 -e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi" -e TZ=Asia/Shanghai -v /home/ubuntu/data/new-api:/data calciumion/new-api:latest
+docker run --name king-api -d --restart always -p 3000:3000 -e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi" -e TZ=Asia/Shanghai -v /home/ubuntu/data/king-api:/data calciumion/king-api:latest
 ```
 
 ## Channel Retry and Cache

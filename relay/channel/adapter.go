@@ -3,9 +3,9 @@ package channel
 import (
 	"io"
 	"net/http"
-	"one-api/dto"
-	relaycommon "one-api/relay/common"
-	"one-api/types"
+	"king-api/dto"
+	relaycommon "king-api/relay/common"
+	"king-api/types"
 
 	"github.com/gin-gonic/gin"
 )
