@@ -10,4 +10,5 @@ web/dist
 .env
 one-api
 .DS_Store
-tiktoken_cache
+tiktoken_cacheweb/dist/
+king-api

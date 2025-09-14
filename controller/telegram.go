@@ -6,8 +6,8 @@ import (
 	"encoding/hex"
 	"io"
 	"net/http"
-	"one-api/common"
-	"one-api/model"
+	"king-api/common"
+	"king-api/model"
 	"sort"
 
 	"github.com/gin-contrib/sessions"

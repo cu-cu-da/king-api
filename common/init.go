@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"one-api/constant"
+	"king-api/constant"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -19,10 +19,10 @@ var (
 )
 
 func printHelp() {
-	fmt.Println("New API " + Version + " - All in one API service for OpenAI API.")
+	fmt.Println("King API " + Version + " - All in one API service for OpenAI API.")
 	fmt.Println("Copyright (C) 2023 JustSong. All rights reserved.")
 	fmt.Println("GitHub: https://github.com/songquanpeng/one-api")
-	fmt.Println("Usage: one-api [--port <port>] [--log-dir <log directory>] [--version] [--help]")
+	fmt.Println("Usage: king-api [--port <port>] [--log-dir <log directory>] [--version] [--help]")
 }
 
 func InitEnv() {

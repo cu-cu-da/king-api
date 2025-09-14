@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 	"io"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/model"
-	"one-api/relay"
-	"one-api/relay/channel"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/model"
+	"king-api/relay"
+	"king-api/relay/channel"
 	"time"
 )
 

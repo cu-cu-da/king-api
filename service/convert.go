@@ -3,11 +3,11 @@ package service
 import (
 	"encoding/json"
 	"fmt"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/dto"
-	"one-api/relay/channel/openrouter"
-	relaycommon "one-api/relay/common"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/dto"
+	"king-api/relay/channel/openrouter"
+	relaycommon "king-api/relay/common"
 	"strings"
 )
 
@@ -190,7 +190,7 @@ func ClaudeToOpenAIRequest(claudeRequest dto.ClaudeRequest, info *relaycommon.Re
 
 func OpenAIErrorToClaudeError(openAIError *dto.OpenAIErrorWithStatusCode) *dto.ClaudeErrorWithStatusCode {
 	claudeError := dto.ClaudeError{
-		Type:    "new_api_error",
+		Type:    "king_api_error",
 		Message: openAIError.Error.Message,
 	}
 	return &dto.ClaudeErrorWithStatusCode{
@@ -202,7 +202,7 @@ func OpenAIErrorToClaudeError(openAIError *dto.OpenAIErrorWithStatusCode) *dto.C
 func ClaudeErrorToOpenAIError(claudeError *dto.ClaudeErrorWithStatusCode) *dto.OpenAIErrorWithStatusCode {
 	openAIError := dto.OpenAIError{
 		Message: claudeError.Error.Message,
-		Type:    "new_api_error",
+		Type:    "king_api_error",
 	}
 	return &dto.OpenAIErrorWithStatusCode{
 		Error:      openAIError,

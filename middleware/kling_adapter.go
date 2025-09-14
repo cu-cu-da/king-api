@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"io"
-	"one-api/common"
-	"one-api/constant"
+	"king-api/common"
+	"king-api/constant"
 
 	"github.com/gin-gonic/gin"
 )

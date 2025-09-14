@@ -3,9 +3,9 @@
 </p>
 <div align="center">
 
-![new-api](/web/public/logo.png)
+![king-api](/web/public/logo.png)
 
-# New API
+# King API
 
 🍥新一代大模型网关与AI资产管理系统
 
@@ -48,7 +48,7 @@
 
 ## ✨ 主要特性
 
-New API提供了丰富的功能，详细特性请参考[特性说明](https://docs.newapi.pro/wiki/features-introduction)：
+King API提供了丰富的功能，详细特性请参考[特性说明](https://docs.newapi.pro/wiki/features-introduction)：
 
 1. 🎨 全新的UI界面
 2. 🌍 多语言支持
@@ -123,7 +123,7 @@ New API提供了丰富的功能，详细特性请参考[特性说明](https://do
 详细部署指南请参考[安装指南-部署方式](https://docs.newapi.pro/installation)：
 
 > [!TIP]
-> 最新版Docker镜像：`calciumion/new-api:latest`  
+> 最新版Docker镜像：`calciumion/king-api:latest`  
 
 ### 多机部署注意事项
 - 必须设置环境变量 `SESSION_SECRET`，否则会导致多机部署时登录状态不一致
@@ -136,14 +136,14 @@ New API提供了丰富的功能，详细特性请参考[特性说明](https://do
 ### 部署方式
 
 #### 使用宝塔面板Docker功能部署
-安装宝塔面板（**9.2.0版本**及以上），在应用商店中找到**New-API**安装即可。
+安装宝塔面板（**9.2.0版本**及以上），在应用商店中找到**King-API**安装即可。
 [图文教程](./docs/BT.md)
 
 #### 使用Docker Compose部署（推荐）
 ```shell
 # 下载项目
-git clone https://github.com/Calcium-Ion/new-api.git
-cd new-api
+git clone https://github.com/Calcium-Ion/king-api.git
+cd king-api
 # 按需编辑docker-compose.yml
 # 启动
 docker-compose up -d
@@ -152,10 +152,10 @@ docker-compose up -d
 #### 直接使用Docker镜像
 ```shell
 # 使用SQLite
-docker run --name new-api -d --restart always -p 3000:3000 -e TZ=Asia/Shanghai -v /home/ubuntu/data/new-api:/data calciumion/new-api:latest
+docker run --name king-api -d --restart always -p 3000:3000 -e TZ=Asia/Shanghai -v /home/ubuntu/data/king-api:/data calciumion/king-api:latest
 
 # 使用MySQL
-docker run --name new-api -d --restart always -p 3000:3000 -e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi" -e TZ=Asia/Shanghai -v /home/ubuntu/data/new-api:/data calciumion/new-api:latest
+docker run --name king-api -d --restart always -p 3000:3000 -e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi" -e TZ=Asia/Shanghai -v /home/ubuntu/data/king-api:/data calciumion/king-api:latest
 ```
 
 ## 渠道重试与缓存

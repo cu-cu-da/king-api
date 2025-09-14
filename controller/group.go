@@ -2,9 +2,9 @@ package controller
 
 import (
 	"net/http"
-	"one-api/model"
-	"one-api/setting"
-	"one-api/setting/ratio_setting"
+	"king-api/model"
+	"king-api/setting"
+	"king-api/setting/ratio_setting"
 
 	"github.com/gin-gonic/gin"
 )

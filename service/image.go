@@ -8,8 +8,8 @@ import (
 	"image"
 	"io"
 	"net/http"
-	"one-api/common"
-	"one-api/constant"
+	"king-api/common"
+	"king-api/constant"
 	"strings"
 
 	"golang.org/x/image/webp"

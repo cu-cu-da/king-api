@@ -2,12 +2,12 @@ package openai
 
 import (
 	"encoding/json"
-	"one-api/common"
-	"one-api/dto"
-	relaycommon "one-api/relay/common"
-	relayconstant "one-api/relay/constant"
-	"one-api/relay/helper"
-	"one-api/service"
+	"king-api/common"
+	"king-api/dto"
+	relaycommon "king-api/relay/common"
+	relayconstant "king-api/relay/constant"
+	"king-api/relay/helper"
+	"king-api/service"
 	"strings"
 
 	"github.com/gin-gonic/gin"

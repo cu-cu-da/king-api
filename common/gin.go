@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"io"
 	"net/http"
-	"one-api/constant"
+	"king-api/constant"
 	"strings"
 	"time"
 )

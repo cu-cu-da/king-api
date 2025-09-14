@@ -7,12 +7,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"io"
 	"net/http"
-	"one-api/dto"
-	"one-api/relay/channel"
-	"one-api/relay/channel/openai"
-	relaycommon "one-api/relay/common"
-	relayconstant "one-api/relay/constant"
-	"one-api/types"
+	"king-api/dto"
+	"king-api/relay/channel"
+	"king-api/relay/channel/openai"
+	relaycommon "king-api/relay/common"
+	relayconstant "king-api/relay/constant"
+	"king-api/types"
 )
 
 type Adaptor struct {

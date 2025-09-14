@@ -1,6 +1,6 @@
 package xunfei
 
-import "one-api/dto"
+import "king-api/dto"
 
 type XunfeiMessage struct {
 	Role    string `json:"role"`

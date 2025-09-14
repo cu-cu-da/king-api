@@ -1,9 +1,9 @@
 package router
 
 import (
-	"one-api/controller"
-	"one-api/middleware"
-	"one-api/relay"
+	"king-api/controller"
+	"king-api/middleware"
+	"king-api/relay"
 
 	"github.com/gin-gonic/gin"
 )

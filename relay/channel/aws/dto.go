@@ -1,7 +1,7 @@
 package aws
 
 import (
-	"one-api/dto"
+	"king-api/dto"
 )
 
 type AwsClaudeRequest struct {

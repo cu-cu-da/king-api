@@ -6,7 +6,7 @@ import (
 	_ "image/gif"
 	_ "image/jpeg"
 	_ "image/png"
-	"one-api/constant"
+	"king-api/constant"
 	"strings"
 )
 

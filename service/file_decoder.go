@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"fmt"
 	"io"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/dto"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/dto"
 	"strings"
 )
 

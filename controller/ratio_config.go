@@ -2,7 +2,7 @@ package controller
 
 import (
     "net/http"
-    "one-api/setting/ratio_setting"
+    "king-api/setting/ratio_setting"
 
     "github.com/gin-gonic/gin"
 )

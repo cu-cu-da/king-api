@@ -7,7 +7,7 @@ import (
 	"github.com/samber/lo"
 	"io"
 	"net/http"
-	"one-api/model"
+	"king-api/model"
 	"strings"
 	"time"
 
@@ -15,12 +15,12 @@ import (
 	"github.com/golang-jwt/jwt"
 	"github.com/pkg/errors"
 
-	"one-api/common"
-	"one-api/constant"
-	"one-api/dto"
-	"one-api/relay/channel"
-	relaycommon "one-api/relay/common"
-	"one-api/service"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/dto"
+	"king-api/relay/channel"
+	relaycommon "king-api/relay/common"
+	"king-api/service"
 )
 
 // ============================

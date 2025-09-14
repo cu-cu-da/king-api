@@ -3,12 +3,12 @@ package common_handler
 import (
 	"io"
 	"net/http"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/dto"
-	"one-api/relay/channel/xinference"
-	relaycommon "one-api/relay/common"
-	"one-api/types"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/dto"
+	"king-api/relay/channel/xinference"
+	relaycommon "king-api/relay/common"
+	"king-api/types"
 
 	"github.com/gin-gonic/gin"
 )

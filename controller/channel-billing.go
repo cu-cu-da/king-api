@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/model"
-	"one-api/service"
-	"one-api/setting"
-	"one-api/types"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/model"
+	"king-api/service"
+	"king-api/setting"
+	"king-api/types"
 	"strconv"
 	"time"
 
@@ -20,7 +20,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// https://github.com/songquanpeng/one-api/issues/79
+// https://github.com/songquanpeng/king-api/issues/79
 
 type OpenAISubscriptionResponse struct {
 	Object             string  `json:"object"`

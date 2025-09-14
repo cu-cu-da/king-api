@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	common2 "one-api/common"
-	"one-api/dto"
-	"one-api/relay/common"
+	common2 "king-api/common"
+	"king-api/dto"
+	"king-api/relay/common"
 
 	"github.com/gin-gonic/gin"
 )

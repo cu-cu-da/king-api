@@ -12,7 +12,7 @@ import (
 	"io"
 	"net/http"
 	"net/url"
-	"one-api/common"
+	"king-api/common"
 	"sort"
 	"strings"
 	"time"

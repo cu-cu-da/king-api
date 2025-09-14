@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/model"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/model"
 	"strconv"
 	"strings"
 

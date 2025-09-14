@@ -7,17 +7,17 @@ import (
 	"io"
 	"log"
 	"net/http"
-	"one-api/common"
-	"one-api/constant"
-	constant2 "one-api/constant"
-	"one-api/dto"
-	"one-api/middleware"
-	"one-api/model"
-	"one-api/relay"
-	relayconstant "one-api/relay/constant"
-	"one-api/relay/helper"
-	"one-api/service"
-	"one-api/types"
+	"king-api/common"
+	"king-api/constant"
+	constant2 "king-api/constant"
+	"king-api/dto"
+	"king-api/middleware"
+	"king-api/model"
+	"king-api/relay"
+	relayconstant "king-api/relay/constant"
+	"king-api/relay/helper"
+	"king-api/service"
+	"king-api/types"
 	"strings"
 
 	"github.com/gin-gonic/gin"
@@ -362,7 +362,7 @@ func RelayMidjourney(c *gin.Context) {
 func RelayNotImplemented(c *gin.Context) {
 	err := dto.OpenAIError{
 		Message: "API not implemented",
-		Type:    "new_api_error",
+		Type:    "king_api_error",
 		Param:   "",
 		Code:    "api_not_implemented",
 	}

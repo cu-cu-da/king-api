@@ -3,8 +3,8 @@ package model
 import (
 	"fmt"
 	"log"
-	"one-api/common"
-	"one-api/constant"
+	"king-api/common"
+	"king-api/constant"
 	"os"
 	"strings"
 	"sync"

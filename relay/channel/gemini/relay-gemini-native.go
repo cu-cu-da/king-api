@@ -3,12 +3,12 @@ package gemini
 import (
 	"io"
 	"net/http"
-	"one-api/common"
-	"one-api/dto"
-	relaycommon "one-api/relay/common"
-	"one-api/relay/helper"
-	"one-api/service"
-	"one-api/types"
+	"king-api/common"
+	"king-api/dto"
+	relaycommon "king-api/relay/common"
+	"king-api/relay/helper"
+	"king-api/service"
+	"king-api/types"
 	"strings"
 
 	"github.com/gin-gonic/gin"

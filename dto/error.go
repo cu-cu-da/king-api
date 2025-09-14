@@ -1,6 +1,6 @@
 package dto
 
-import "one-api/types"
+import "king-api/types"
 
 type OpenAIError struct {
 	Message string `json:"message"`

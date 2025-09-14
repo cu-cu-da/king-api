@@ -1,6 +1,6 @@
 package ali
 
-import "one-api/dto"
+import "king-api/dto"
 
 type AliMessage struct {
 	Content string `json:"content"`

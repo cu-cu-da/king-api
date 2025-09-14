@@ -1,7 +1,7 @@
 package service
 
 import (
-	"one-api/constant"
+	"king-api/constant"
 	"strings"
 )
 

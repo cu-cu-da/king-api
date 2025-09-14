@@ -1,6 +1,6 @@
 package cohere
 
-import "one-api/dto"
+import "king-api/dto"
 
 type CohereRequest struct {
 	Model       string        `json:"model"`

@@ -3,12 +3,12 @@ package service
 import (
 	"fmt"
 	"net/http"
-	"one-api/common"
-	"one-api/constant"
-	"one-api/dto"
-	"one-api/model"
-	"one-api/setting/operation_setting"
-	"one-api/types"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/dto"
+	"king-api/model"
+	"king-api/setting/operation_setting"
+	"king-api/types"
 	"strings"
 )
 

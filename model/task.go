@@ -3,8 +3,8 @@ package model
 import (
 	"database/sql/driver"
 	"encoding/json"
-	"one-api/constant"
-	commonRelay "one-api/relay/common"
+	"king-api/constant"
+	commonRelay "king-api/relay/common"
 	"time"
 )
 

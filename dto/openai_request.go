@@ -2,7 +2,7 @@ package dto
 
 import (
 	"encoding/json"
-	"one-api/common"
+	"king-api/common"
 	"strings"
 )
 

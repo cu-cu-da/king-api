@@ -2,9 +2,9 @@ package service
 
 import (
 	"fmt"
-	"one-api/common"
-	"one-api/dto"
-	"one-api/model"
+	"king-api/common"
+	"king-api/dto"
+	"king-api/model"
 	"strings"
 )
 

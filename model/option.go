@@ -1,11 +1,11 @@
 package model
 
 import (
-	"one-api/common"
-	"one-api/setting"
-	"one-api/setting/config"
-	"one-api/setting/operation_setting"
-	"one-api/setting/ratio_setting"
+	"king-api/common"
+	"king-api/setting"
+	"king-api/setting/config"
+	"king-api/setting/operation_setting"
+	"king-api/setting/ratio_setting"
 	"strconv"
 	"strings"
 	"time"

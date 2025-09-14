@@ -2,7 +2,7 @@ package config
 
 import (
 	"encoding/json"
-	"one-api/common"
+	"king-api/common"
 	"reflect"
 	"strconv"
 	"strings"

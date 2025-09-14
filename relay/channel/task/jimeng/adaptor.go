@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 	"net/url"
-	"one-api/model"
+	"king-api/model"
 	"sort"
 	"strings"
 	"time"
@@ -18,12 +18,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 
-	"one-api/common"
-	"one-api/constant"
-	"one-api/dto"
-	"one-api/relay/channel"
-	relaycommon "one-api/relay/common"
-	"one-api/service"
+	"king-api/common"
+	"king-api/constant"
+	"king-api/dto"
+	"king-api/relay/channel"
+	relaycommon "king-api/relay/common"
+	"king-api/service"
 )
 
 // ============================

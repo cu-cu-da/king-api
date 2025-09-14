@@ -2,7 +2,7 @@ package dto
 
 import (
 	"encoding/json"
-	"one-api/types"
+	"king-api/types"
 )
 
 type SimpleResponse struct {

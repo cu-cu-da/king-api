@@ -1,6 +1,6 @@
 package dify
 
-import "one-api/dto"
+import "king-api/dto"
 
 type DifyChatRequest struct {
 	Inputs           map[string]interface{} `json:"inputs"`

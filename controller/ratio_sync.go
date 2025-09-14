@@ -9,10 +9,10 @@ import (
     "sync"
     "time"
 
-    "one-api/common"
-    "one-api/dto"
-    "one-api/model"
-    "one-api/setting/ratio_setting"
+    "king-api/common"
+    "king-api/dto"
+    "king-api/model"
+    "king-api/setting/ratio_setting"
 
     "github.com/gin-gonic/gin"
 )
